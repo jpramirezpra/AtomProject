@@ -11,7 +11,7 @@ var Module = (function(){
 
   };
 
-  return Module
+  return Module;
 }());
 
 (function() {
@@ -21,12 +21,11 @@ var Module = (function(){
 
 (function() {
   "use strict";
-
 }());
 
 document.addEventListener("click", function(e){
   console.log("this is cool");
-})
+});
 
 var Animal = (function(){
   function Animal(){
@@ -36,7 +35,7 @@ var Animal = (function(){
 
   };
 
-  return Animal
+  return Animal;
 }());
 
 var Module = (function(){
