@@ -3,11 +3,16 @@ console.log();
 console.warn();
 console.error();
 
-(function(){
-  "use strict";
+var Module = (function(){
+  function Module(){
 
-}())
+  }
+    Module.prototype = {
 
+  };
+
+  return Module
+}());
 
 (function() {
   "use strict";
